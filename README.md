@@ -1,5 +1,5 @@
 # coffee_machine
-Very simple, yet effective coffee machine simulator able to accept quarters, dimes, nickels, and pennies.
+Very simple yet effective coffee machine simulator able to accept quarters, dimes, nickels, and pennies.
 
 If the client doesn't have enough money, it prompts another client again.
 
