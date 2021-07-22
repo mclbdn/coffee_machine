@@ -35,7 +35,7 @@ money = 0
 machine_on = True
 
 
-def are_enough_resources():
+def are_enough_resources(type_of_beverage):
     for ingredient in resources:
         if resources[ingredient] < MENU[type_of_beverage]["ingredients"][ingredient]:
             print(f"Sorry, there is not enough {ingredient}.")
@@ -79,11 +79,11 @@ while machine_on:
         print(f"Money: ${money}")
         print("~~~~~~~~~~~~~~~~~~~~~")
     elif type_of_beverage == "latte":
-        if are_enough_resources() == True:
+        if are_enough_resources(type_of_beverage) == True:
             insert_coins(type_of_beverage)
     elif type_of_beverage == "cappuccino":
-        if are_enough_resources() == True:
+        if are_enough_resources(type_of_beverage) == True:
             insert_coins(type_of_beverage)
     elif type_of_beverage == "espresso":
-        if are_enough_resources() == True:
+        if are_enough_resources(type_of_beverage) == True:
             insert_coins(type_of_beverage)
