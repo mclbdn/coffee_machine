@@ -44,7 +44,7 @@ def are_enough_resources(type_of_beverage):
             return True
 
 
-def insert_coins(type_of_beverage):
+def process_payment(type_of_beverage):
     global money
     print("Please insert coins:")
     print("~~~~~~~~~~~~~~~~~~~~~")
@@ -80,10 +80,10 @@ while machine_on:
         print("~~~~~~~~~~~~~~~~~~~~~")
     elif type_of_beverage == "latte":
         if are_enough_resources(type_of_beverage) == True:
-            insert_coins(type_of_beverage)
+            process_payment(type_of_beverage)
     elif type_of_beverage == "cappuccino":
         if are_enough_resources(type_of_beverage) == True:
-            insert_coins(type_of_beverage)
+            process_payment(type_of_beverage)
     elif type_of_beverage == "espresso":
         if are_enough_resources(type_of_beverage) == True:
-            insert_coins(type_of_beverage)
+            process_payment(type_of_beverage)
