@@ -5,6 +5,7 @@ If the client doesn't have enough money, it prompts another client again.
 
 In case the coffee machine doesn't have enough supplies, i.e., milk, client has only limited choices.
 
+
 ## Commands
 `report` Prints current state of machine's water, milk, coffee, and money.
 
