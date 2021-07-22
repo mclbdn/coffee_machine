@@ -27,4 +27,5 @@ git clone https://github.com/mclbdn/coffee_machine
 python main.py
 ```
 
+# Screenshot
 ![Photo of Terminal running coffee machine app.](https://raw.githubusercontent.com/mclbdn/coffee_machine/main/coffee_machine_screenshot.png)
